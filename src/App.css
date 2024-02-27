@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  background: linear-gradient(to bottom, #fffffe, #fff8aa);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 150px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  flex: 3;
+  padding-left: 20px;
+}
+
+.flex-container h3 {
+  margin-bottom: 10px;
+}
+
+.flex-container h6 {
+  margin-bottom: 10px;
+}
+
+.flex-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bottom-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+.bottom-nav a,.bottom-nav p {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid red;
+  width: 100%;
+}
+.pumps-image {
+  width: 80%;
+  height: auto;
+}
+.bottom-logo{
+ width: 20px; 
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .logo{
+    width: 80%;
+    height: 80%;
+  }
+  .pumps-image {
+    width: 80%;
+    height: auto;
+  }
+}
